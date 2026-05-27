@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SMS - Sistema de Mensagens</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--
+    Copyright (c) 2026 Aisms / Emshtml
+    Todos os direitos reservados.
+    -->
+</head>
+<body>
+
+    <header class="topo">
+        <div class="logo">AI SMS</div>
+
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Mensagens</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="painel">
+            <h1>Sistema Inteligente de Mensagens</h1>
+            <p>
+                Plataforma moderna para comunicação rápida,
+                segura e eficiente.
+            </p>
+
+            <div class="formulario">
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+                <button onclick="enviarMensagem()">
+                    Enviar Mensagem
+                </button>
+            </div>
+        </section>
+
+        <section class="mensagens-area">
+            <h2>Mensagens</h2>
+
+            <div id="listaMensagens" class="lista"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            © 2026 Aisms / Emshtml — Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
